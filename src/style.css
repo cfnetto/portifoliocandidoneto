@@ -403,20 +403,21 @@ button:hover {
 }
 
 .contato {
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 .contato h3 {
   color: #adadad;
   font-size: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 20px;
 }
 
 .icones-contato ul {
   display: flex;
   list-style: none;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   justify-content: center;
 }
 
@@ -438,5 +439,5 @@ button:hover {
   color: #dadad8;
   font-size: 18px;
   margin-top: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
