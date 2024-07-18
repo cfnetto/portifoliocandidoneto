@@ -1,4 +1,8 @@
 /* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -317,11 +321,6 @@ button:hover {
   transform: scale(1.2);
 }
 
-/* 
-.footer {
-  color: #c31432;
-} */
-
 /* Center */
 .sobre-mim {
   text-align: center;
@@ -416,15 +415,16 @@ button:hover {
 
 .projects {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 100px;
   justify-content: center;
-  align-items: center;
 }
-
 .page {
   transition: all 0.3s ease;
 }
 .page img {
-  width: 500px;
+  width: 200px;
   height: auto;
 }
 
@@ -437,10 +437,10 @@ button:hover {
   width: 500px;
   height: auto;
 }
-
 .page:hover {
   transform: scale(1.1);
 }
+
 /* Contact */
 .footer {
   background: linear-gradient(to right, #c31432, #240b36);
