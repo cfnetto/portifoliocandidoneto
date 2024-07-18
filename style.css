@@ -403,6 +403,44 @@ button:hover {
   border-bottom-right-radius: 10px;
 }
 
+/* Projetos */
+.projetos {
+  margin-bottom: 30px;
+}
+
+.projetos h3 {
+  font-size: 40px;
+  color: #adadad;
+  margin-bottom: 40px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  transition: all 0.3s ease;
+}
+.page img {
+  width: 500px;
+  height: auto;
+}
+
+.page h4 {
+  font-size: 25px;
+  color: #adadad;
+}
+
+.page p {
+  width: 500px;
+  height: auto;
+}
+
+.page:hover {
+  transform: scale(1.1);
+}
 /* Contact */
 .footer {
   background: linear-gradient(to right, #c31432, #240b36);
